@@ -1,0 +1,11 @@
+#!/usr/bin/python
+
+from sys import argv
+from subprocess import call
+
+if len(argv) > 1:
+    argument = argv[1]
+    fields = argument.split(":")
+    call(["vim", fields[0], "+" + fields[1]])
+else:
+    exit(1)
