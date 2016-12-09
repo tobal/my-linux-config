@@ -1,0 +1,8 @@
+.backup/
+.histfile
+.ssh/
+.viminfo
+.w3m/
+.zcompdump
+local/
+
