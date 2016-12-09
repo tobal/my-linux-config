@@ -6,6 +6,9 @@ from subprocess import call
 if len(argv) > 1:
     argument = argv[1]
     fields = argument.split(":")
-    call(["vim", fields[0], "+" + fields[1]])
+    if len(fields) > 1:
+        call(["vim", fields[0], "+" + fields[1]])
+    else:
+        call(["vim", fields[0]])
 else:
     exit(1)
