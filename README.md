@@ -1,2 +1,3 @@
-# my-linux-config
-Some of my personal linux configuration files
+# dotfiles
+My config files for linux
+Also, welcome to my home folder
