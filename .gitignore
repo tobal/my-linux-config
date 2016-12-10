@@ -4,5 +4,6 @@
 .viminfo
 .w3m/
 .zcompdump
+.Xauthority
 local/
 .local/
