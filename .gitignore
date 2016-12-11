@@ -7,3 +7,6 @@
 .Xauthority
 local/
 .local/
+.dmenu_cache
+.lesshst
+.xsession-errors
