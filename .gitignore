@@ -10,3 +10,11 @@ local/
 .dmenu_cache
 .lesshst
 .xsession-errors
+
+# chromium shit
+.cache/
+.config/chromium/
+.config/menus/
+.gnome/
+.pki/
+
