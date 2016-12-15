@@ -32,3 +32,6 @@ fi
 # Set path
 export PATH=$HOME/local/bin:$HOME/.local/bin:$PATH
 
+# System specific settings
+# TODO: move these to where they belong
+export ALSA_CARD=PCH
