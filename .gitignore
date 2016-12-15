@@ -5,11 +5,13 @@
 .w3m/
 .zcompdump
 .Xauthority
-local/
 .local/
 .dmenu_cache
 .lesshst
 .xsession-errors
+.config/gtk-2.0/
+.config/rncbc.org/
+
 
 # chromium shit
 .cache/
@@ -18,3 +20,7 @@ local/
 .gnome/
 .pki/
 
+# my directories
+download/
+media/
+local/
