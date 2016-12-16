@@ -12,13 +12,25 @@
 .config/gtk-2.0/
 .config/rncbc.org/
 .wget-hsts
+.gitignore.swp
 
-# chromium shit
+# pulse shit
+.config/pulse/
+.pulse-cookie
+
+# chromium poop
 .cache/
 .config/chromium/
 .config/menus/
 .gnome/
 .pki/
+
+# steam crap
+.steam/
+.steampath
+.steampid
+
+nothing added to commit but untracked files present (use "git add" to track)
 
 # my directories
 download/
