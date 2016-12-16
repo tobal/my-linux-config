@@ -11,7 +11,7 @@
 .xsession-errors
 .config/gtk-2.0/
 .config/rncbc.org/
-
+.wget-hsts
 
 # chromium shit
 .cache/
