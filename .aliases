@@ -17,3 +17,6 @@ alias pscpu='ps auxf | sort -nr -k 3 | head -10'
 
 # version control
 alias gitlog='git log --pretty=format:"%h - %an, %ar : %s" --graph'
+
+# system control
+alias enter_cyberspace="wpa_supplicant -iwlp3s0 -c/etc/wpa_supplicant.conf -Dwext"
