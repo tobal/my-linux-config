@@ -5,14 +5,18 @@
 .w3m/
 .zcompdump
 .Xauthority
-.local/
 .dmenu_cache
 .lesshst
 .xsession-errors
 .config/gtk-2.0/
 .config/rncbc.org/
+.config/dconf/
+.config/unity3d/
 .wget-hsts
 .gitignore.swp
+.mozilla/
+.rtorrent.session/
+.thumbnails/
 
 # pulse shit
 .config/pulse/
@@ -30,9 +34,9 @@
 .steampath
 .steampid
 
-nothing added to commit but untracked files present (use "git add" to track)
-
 # my directories
 download/
 media/
 local/
+
+
