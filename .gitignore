@@ -8,15 +8,17 @@
 .dmenu_cache
 .lesshst
 .xsession-errors
-.config/gtk-2.0/
-.config/rncbc.org/
-.config/dconf/
-.config/unity3d/
 .wget-hsts
 .gitignore.swp
 .mozilla/
 .rtorrent.session/
 .thumbnails/
+.local/share/
+.sqlmap/
+.config/gtk-2.0/
+.config/rncbc.org/
+.config/dconf/
+.config/unity3d/
 
 # pulse shit
 .config/pulse/
@@ -38,5 +40,3 @@
 download/
 media/
 local/
-
-
