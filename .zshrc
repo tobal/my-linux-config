@@ -17,9 +17,6 @@ case $- in
       *) return;;
 esac
 
-# don't put duplicate lines or lines starting with space in the history.
-HISTCONTROL=ignoreboth
-
 # Alias definitions.
 if [ -f ~/.aliases ]; then
     . ~/.aliases
