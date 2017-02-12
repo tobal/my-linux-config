@@ -7,6 +7,9 @@
 #    unset f
 #fi
 
+xrandr --setprovideroutputsource modsetting NVIDIA-0
+xrandr --auto
+
 # set log location
 exec i3 -V >> ~/local/var/log/i3log-$(date +'%F-%k-%M-%S') 2>&1
 
