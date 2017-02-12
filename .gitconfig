@@ -1,18 +1,11 @@
 [user]
-	name = Tobal
-	email = tobal17@gmail.com
+    name = Tobal
+    email = tobal17@gmail.com
 
 [core]
     editor = vim
 
 [alias]
-	ci = commit
-    co = checkout
-    br = branch
-    st = status
-    rb = rebase
-    re = remote
-    cp = cherry-pick
     discard = checkout --
     unstage = reset HEAD --
     stash-unapply = !git stash show -p | git apply -R
