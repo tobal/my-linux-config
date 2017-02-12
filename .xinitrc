@@ -11,4 +11,4 @@
 exec i3 -V >> ~/local/var/log/i3log-$(date +'%F-%k-%M-%S') 2>&1
 
 # set background
-feh --bg-scale /home/tobal/media/image/wp.jpg
+#feh --bg-scale /home/tobal/media/image/wp.jpg
