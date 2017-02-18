@@ -166,4 +166,4 @@ exec setxkbmap -layout us,hu
 exec setxkbmap -option 'grp:alt_space_toggle' 'us,hu'
 
 # set background
-exec feh  --bg-scale '/home/tobal/media/image/wp.jpg'
+exec feh  --bg-scale '/home/tobal/media/image/wp.png'
