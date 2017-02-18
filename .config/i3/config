@@ -164,3 +164,6 @@ bar {
 # set keyboard layout and hotkey to toggle it
 exec setxkbmap -layout us,hu
 exec setxkbmap -option 'grp:alt_space_toggle' 'us,hu'
+
+# set background
+exec feh  --bg-scale '/home/tobal/media/image/wp.jpg'
