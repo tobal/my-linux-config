@@ -157,3 +157,10 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+
+# Initial setup for x sessions
+
+# set keyboard layout and hotkey to toggle it
+exec setxkbmap -layout us,hu
+exec setxkbmap -option 'grp:alt_space_toggle' 'us,hu'
