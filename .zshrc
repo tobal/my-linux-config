@@ -23,9 +23,9 @@ if [ -f ~/.aliases ]; then
 fi
 
 # Load custom prompt
-if [ -f ~/.zsh_prompt ]; then
-    . ~/.zsh_prompt
-fi
+#if [ -f ~/.zsh_prompt ]; then
+#    . ~/.zsh_prompt
+#fi
 
 # Set path
 export PATH=$HOME/local/bin:$HOME/.local/bin:$PATH
