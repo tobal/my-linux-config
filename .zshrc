@@ -14,6 +14,7 @@ compinit
 # Autoload the prompt theme system
 autoload -Uz promptinit
 promptinit
+prompt bart
 
 # If not running interactively, don't do anything
 case $- in
