@@ -11,6 +11,10 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# Autoload the prompt theme system
+autoload -Uz promptinit
+promptinit
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
