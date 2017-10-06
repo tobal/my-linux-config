@@ -1,3 +1,8 @@
 # Write your default config options here!
 
+# Set font encoding.
+subfont-encoding=unicode
 
+# Set subtitle file encoding.
+unicode=yes
+utf8=yes
