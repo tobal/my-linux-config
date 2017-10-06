@@ -1,3 +1,27 @@
+
+# my directories
+download/
+media/
+local/
+projects/
+
+# pulse
+.config/pulse/
+.pulse-cookie
+
+# chromium
+.cache/
+.config/chromium/
+.config/menus/
+.gnome/
+.pki/
+
+# steam
+.steam/
+.steampath
+.steampid
+
+
 .backup/
 .histfile
 .ssh/
@@ -19,24 +43,34 @@
 .config/rncbc.org/
 .config/dconf/
 .config/unity3d/
-
-# pulse shit
-.config/pulse/
-.pulse-cookie
-
-# chromium poop
-.cache/
-.config/chromium/
-.config/menus/
-.gnome/
-.pki/
-
-# steam crap
-.steam/
-.steampath
-.steampid
-
-# my directories
-download/
-media/
-local/
+.config/configstore/
+.config/freerdp/
+.config/git/
+.config/google-chrome/
+.config/mc/
+.config/remmina/
+.config/vlc/
+.config/wireshark/
+.IdeaIC2017.1/
+.audacity-data/
+.bash_history
+.erlang.cookie
+.gcs.pref
+.gdbinit
+.ghc/
+.gimp-2.8/
+.install4j
+.ivy2/
+.java/
+.jprofiler10/
+.npm/
+.nvm/
+.oracle_jre_usage/
+.pylint.d/
+.python_history
+.rnd
+.scala_history
+.screenlayout/
+.visualvm/
+.openarena/
+.sbt/
