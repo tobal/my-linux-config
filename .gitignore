@@ -47,7 +47,6 @@ projects/
 .config/freerdp/
 .config/git/
 .config/google-chrome/
-.config/mc/
 .config/remmina/
 .config/vlc/
 .config/wireshark/
