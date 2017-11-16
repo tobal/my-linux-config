@@ -109,7 +109,7 @@ clipboard_store=
 clipboard_paste=
 
 [Colors]
-base_color=
+base_color=lightgray,green:normal=green,default:selected=white,gray:marked=yellow,default:markselect=yellow,gray:directory=blue,default:executable=bri
 xterm-256color=
 color_terminals=
 
