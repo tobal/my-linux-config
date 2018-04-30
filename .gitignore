@@ -21,6 +21,7 @@ projects/
 .steampath
 .steampid
 
+.tig_history
 
 .backup/
 .histfile
