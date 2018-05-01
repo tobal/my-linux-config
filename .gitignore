@@ -4,6 +4,7 @@ download/
 media/
 local/
 projects/
+var/
 
 # pulse
 .config/pulse/
@@ -22,6 +23,7 @@ projects/
 .steampid
 
 .tig_history
+.fehbg
 
 .backup/
 .histfile
