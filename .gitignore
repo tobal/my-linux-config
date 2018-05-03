@@ -5,6 +5,7 @@ media/
 local/
 projects/
 var/
+usr/src/
 
 # pulse
 .config/pulse/
