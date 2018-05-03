@@ -31,6 +31,7 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec st -f "Monospace:pixelsize=28:antialias=true:autohint=true" -e tmux
+bindsym $mod+t exec st -f "Monospace:pixelsize=28:antialias=true:autohint=true"
 
 # kill focused window
 bindsym $mod+Shift+q kill
