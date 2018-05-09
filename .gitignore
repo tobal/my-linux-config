@@ -26,6 +26,9 @@ usr/src/
 .tig_history
 .fehbg
 
+.IdeaIC*/
+.PyCharmCE*/
+
 .backup/
 .histfile
 .ssh/
@@ -54,7 +57,6 @@ usr/src/
 .config/remmina/
 .config/vlc/
 .config/wireshark/
-.IdeaIC2017.1/
 .audacity-data/
 .bash_history
 .erlang.cookie
