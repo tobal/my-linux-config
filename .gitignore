@@ -6,6 +6,7 @@ local/
 projects/
 var/
 usr/src/
+usr/share/
 etc/certs/
 
 # pulse
