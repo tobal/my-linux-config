@@ -19,3 +19,7 @@
 
 [grep]
     linenumber = true
+
+[gui]
+    fontui = -family IPAGothic -size 16 -weight normal -slant roman -underline 0 -overstrike 0
+    fontdiff = -family IPAGothic -size 16 -weight normal -slant roman -underline 0 -overstrike 0
