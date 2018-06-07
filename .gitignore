@@ -25,6 +25,10 @@ etc/certs/
 .steampath
 .steampid
 
+# jupyter
+.ipython/
+.jupyter/
+
 .tig_history
 .fehbg
 
