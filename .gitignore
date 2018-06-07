@@ -5,6 +5,7 @@ media/
 local/
 projects/
 var/
+opt/
 usr/src/
 usr/share/
 etc/certs/
