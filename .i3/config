@@ -37,7 +37,7 @@ bindsym $mod+t exec st -f "Monospace:pixelsize=28:antialias=true:autohint=true"
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run -i -p 'Arch Linux' -fn 'Monospace:pixelsize=28:antialias=true:autohint=true' -nb 'black' -nf 'green' -sf '#fdf6e3' -sb '#b58900'
+bindsym $mod+d exec dmenu_run -i -p 'Arch Linux' -fn 'Monospace:pixelsize=28:antialias=true:autohint=true' -nb '#002233' -nf '#99ddff' -sf '#00334d' -sb '#cceeff'
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
