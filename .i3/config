@@ -161,25 +161,25 @@ bar {
     separator_symbol  ":|:"
 
     colors {
-        background #001a1a
-        statusline #ccffff
+        background #00111a
+        statusline #cceeff
 
-        focused_workspace  #ccffff #008080
-        active_workspace   #ccffff #004d4d
-        inactive_workspace #99ffff #002222
-        urgent_workspace   #002222 #99ffff
+        focused_workspace  #cceeff #005580
+        active_workspace   #cceeff #00334d
+        inactive_workspace #99ddff #002233
+        urgent_workspace   #002233 #99ddff
     }
 }
 
 # Colors
 # class                 border  backgr. text    indicator child_border
-client.focused          #008080 #008080 #ccffff #008080   #008080
-client.focused_inactive #004d4d #004d4d #ccffff #004d4d   #004d4d
-client.unfocused        #002222 #002222 #99ffff #002222   #002222
-client.urgent           #99ffff #99ffff #002222 #99ffff   #99ffff
+client.focused          #005580 #005580 #cceeff #005580   #005580
+client.focused_inactive #00334d #00334d #cceeff #00334d   #00334d
+client.unfocused        #002233 #002233 #99ddff #002233   #002233
+client.urgent           #99ddff #99ddff #002233 #99ddff   #99ddff
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
-client.background       #003333
+client.background       #002233
 
 # Initial setup for x sessions
 
