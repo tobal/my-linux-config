@@ -64,7 +64,9 @@ etc/certs/
 .config/remmina/
 .config/vlc/
 .config/wireshark/
+.config/VirtualBox/
 .audacity-data/
+.gnupg/
 .bash_history
 .erlang.cookie
 .gcs.pref
