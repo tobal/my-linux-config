@@ -37,6 +37,7 @@ etc/certs/
 .IdeaIC*/
 .PyCharmCE*/
 
+.docker/
 .backup/
 .histfile
 .ssh/
