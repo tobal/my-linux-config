@@ -9,7 +9,6 @@ opt/
 mnt/
 usr/src/
 usr/share/
-etc/certs/
 
 # pulse
 .config/pulse/
