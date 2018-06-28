@@ -6,6 +6,7 @@ local/
 projects/
 var/
 opt/
+mnt/
 usr/src/
 usr/share/
 etc/certs/
