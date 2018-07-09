@@ -36,6 +36,7 @@ usr/share/
 .IdeaIC*/
 .PyCharmCE*/
 
+.local/
 .docker/
 .backup/
 .histfile
