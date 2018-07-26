@@ -29,6 +29,7 @@ usr/share/
 # jupyter
 .ipython/
 .jupyter/
+.jupyter-scala/
 
 .tig_history
 .fehbg
