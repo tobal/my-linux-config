@@ -37,6 +37,7 @@ usr/share/
 .IdeaIC*/
 .PyCharmCE*/
 
+.node-gyp/
 .local/
 .docker/
 .backup/
