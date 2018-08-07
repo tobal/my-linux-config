@@ -6,6 +6,7 @@ opt/
 mnt/
 usr/src/
 usr/share/
+usr/local/
 
 # pulse
 .config/pulse/
