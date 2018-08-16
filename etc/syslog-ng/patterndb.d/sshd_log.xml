@@ -12,22 +12,6 @@
         <patterns>
           <pattern>Accepted @ESTRING:usracct.authmethod: @for @ESTRING:usracct.username: @from @ESTRING:usracct.device: @port @ESTRING:usracct.port: @@ANYSTRING:usracct.service@</pattern>
         </patterns>
-        <actions>
-          <action condition='"$(context-length)" < "1"'>
-            <message>
-              <values>
-                <value name="usracct.sessionid">$(sha256 -l 10 $(uuid))</value>
-              </values>
-            </message>
-          </action>
-          <action condition='"$(context-length)" >= "1"'>
-            <message>
-              <values>
-                <value name="usracct.sessionid">${usracct.sessionid}@1</value>
-              </values>
-            </message>
-          </action>
-        </actions>
         <examples>
           <example>
            <test_message program="sshd">Accepted password for bazsi from 127.0.0.1 port 48650 ssh2</test_message>
@@ -43,6 +27,7 @@
         <values>
           <value name="usracct.type">login</value>
           <value name="usracct.application">$PROGRAM</value>
+          <value name="usracct.sessionid">$(sha256 -l 10 $(uuid))</value>
           <value name="secevt.verdict">ACCEPT</value>
         </values>
         <tags>
@@ -56,22 +41,6 @@
         <patterns>
           <pattern>Failed @ESTRING:usracct.authmethod: @for @ESTRING:usracct.username: @from @ESTRING:usracct.device: @port @ESTRING:usracct.port: @@ANYSTRING:usracct.service@</pattern>
         </patterns>
-        <actions>
-          <action condition='"$(context-length)" < "1"'>
-            <message>
-              <values>
-                <value name="usracct.sessionid">$(sha256 -l 10 $(uuid))</value>
-              </values>
-            </message>
-          </action>
-          <action condition='"$(context-length)" >= "1"'>
-            <message>
-              <values>
-                <value name="usracct.sessionid">${usracct.sessionid}@1</value>
-              </values>
-            </message>
-          </action>
-        </actions>
         <examples>
           <example>
            <test_message program="sshd">Failed password for bazsi from 127.0.1.1 port 44637 ssh2</test_message>
@@ -97,6 +66,7 @@
         <values>
           <value name="usracct.type">login</value>
           <value name="usracct.application">$PROGRAM</value>
+          <value name="usracct.sessionid">$(sha256 -l 10 $(uuid))</value>
           <value name="secevt.verdict">REJECT</value>
         </values>
         <tags>
@@ -110,22 +80,6 @@
         <patterns>
           <pattern>Failed @ESTRING:usracct.authmethod: @for invalid user @ESTRING:usracct.username: @from @ESTRING:usracct.device: @port @ESTRING:usracct.port: @@ANYSTRING:usracct.service@</pattern>
         </patterns>
-        <actions>
-          <action condition='"$(context-length)" < "1"'>
-            <message>
-              <values>
-                <value name="usracct.sessionid">$(sha256 -l 10 $(uuid))</value>
-              </values>
-            </message>
-          </action>
-          <action condition='"$(context-length)" >= "1"'>
-            <message>
-              <values>
-                <value name="usracct.sessionid">${usracct.sessionid}@1</value>
-              </values>
-            </message>
-          </action>
-        </actions>
         <examples>
           <example>
            <test_message program="sshd">Failed password for invalid user siem from 127.0.0.1 port 37397 ssh2</test_message>
@@ -141,6 +95,7 @@
         <values>
           <value name="usracct.type">login</value>
           <value name="usracct.application">$PROGRAM</value>
+          <value name="usracct.sessionid">$(sha256 -l 10 $(uuid))</value>
           <value name="secevt.verdict">REJECT</value>
         </values>
         <tags>
@@ -154,22 +109,6 @@
         <patterns>
           <pattern>Failed @ESTRING:usracct.authmethod: @for illegal user @ESTRING:usracct.username: @from @ESTRING:usracct.device: @port @ESTRING:usracct.port: @@ANYSTRING:usracct.service@</pattern>
         </patterns>
-        <actions>
-          <action condition='"$(context-length)" < "1"'>
-            <message>
-              <values>
-                <value name="usracct.sessionid">$(sha256 -l 10 $(uuid))</value>
-              </values>
-            </message>
-          </action>
-          <action condition='"$(context-length)" >= "1"'>
-            <message>
-              <values>
-                <value name="usracct.sessionid">${usracct.sessionid}@1</value>
-              </values>
-            </message>
-          </action>
-        </actions>
         <examples>
           <example>
            <test_message program="sshd">Failed password for illegal user admin from ::ffff:10.10.10.135 port 45629 ssh2</test_message>
@@ -185,6 +124,7 @@
         <values>
           <value name="usracct.type">login</value>
           <value name="usracct.application">$PROGRAM</value>
+          <value name="usracct.sessionid">$(sha256 -l 10 $(uuid))</value>
           <value name="secevt.verdict">REJECT</value>
         </values>
         <tags>
@@ -198,22 +138,6 @@
         <patterns>
           <pattern>pam_unix(sshd:session): session closed for user @ANYSTRING:usracct.username:@</pattern>
         </patterns>
-        <actions>
-          <action condition='"$(context-length)" < "1"'>
-            <message>
-              <values>
-                <value name="usracct.sessionid">$(sha256 -l 10 $(uuid))</value>
-              </values>
-            </message>
-          </action>
-          <action condition='"$(context-length)" >= "1"'>
-            <message>
-              <values>
-                <value name="usracct.sessionid">${usracct.sessionid}@1</value>
-              </values>
-            </message>
-          </action>
-        </actions>
         <examples>
           <example>
            <test_message program="sshd">pam_unix(sshd:session): session closed for user bazsi</test_message>
@@ -225,6 +149,7 @@
         <values>
           <value name="usracct.type">logout</value>
           <value name="usracct.application">$PROGRAM</value>
+          <value name="usracct.sessionid">${usracct.sessionid}@1</value>
         </values>
         <tags>
           <tag>usracct</tag>
@@ -236,22 +161,6 @@
         <patterns>
           <pattern>session closed for user @ANYSTRING:usracct.username:@</pattern>
         </patterns>
-        <actions>
-          <action condition='"$(context-length)" < "1"'>
-            <message>
-              <values>
-                <value name="usracct.sessionid">$(sha256 -l 10 $(uuid))</value>
-              </values>
-            </message>
-          </action>
-          <action condition='"$(context-length)" >= "1"'>
-            <message>
-              <values>
-                <value name="usracct.sessionid">${usracct.sessionid}@1</value>
-              </values>
-            </message>
-          </action>
-        </actions>
         <examples>
           <example>
            <test_message program="sshd(pam_unix)">session closed for user bazsi</test_message>
@@ -263,6 +172,7 @@
         <values>
           <value name="usracct.type">logout</value>
           <value name="usracct.application">$PROGRAM</value>
+          <value name="usracct.sessionid">${usracct.sessionid}@1</value>
         </values>
         <tags>
           <tag>usracct</tag>
