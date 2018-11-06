@@ -90,3 +90,4 @@ usr/local/
 .visualvm/
 .openarena/
 .sbt/
+.virtualenvs
