@@ -35,6 +35,13 @@ fi
 # Set path
 export PATH=$HOME/bin:$HOME/.local/bin:$PATH
 
+# Set up pyenv
+# Install with:
+# $> curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+export PATH="~/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 # System specific settings
 # TODO: move these to where they belong
 export ALSA_CARD=PCH
