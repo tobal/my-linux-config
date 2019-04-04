@@ -1,0 +1,8 @@
+* Terminal
+** Set default shell to zsh
+#+BEGIN_SRC emacs-lisp
+  (defvar term-shell "/bin/zsh")
+  (defadvice ansi-term (before force-bash)
+    (interactive (list term-shell)))
+  (ad-activate 'ansi-term)
+#+END_SRC
