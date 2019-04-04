@@ -29,11 +29,22 @@ There are two things you can do about this warning:
   (package-refresh-contents)
   (package-install 'spacemacs-theme))
 
+(defalias 'yes-or-no-p 'y-or-n-p)
+
+(defvar term-shell "/bin/zsh")
+(defadvice ansi-term (before force-bash)
+  (interactive (list term-shell)))
+(ad-activate 'ansi-term)
 
 (use-package which-key
   :ensure t
   :init
   (which-key-mode))
+
+(setq ring-bell-function 'ignore)
+
+(when window-system (global-hl-line-mode t))
+(global-prettify-symbols-mode t)
 
 (tool-bar-mode -1)
 (menu-bar-mode -1)
@@ -50,9 +61,7 @@ There are two things you can do about this warning:
  '(custom-safe-themes
    (quote
     ("bd51a329aa9b8e29c6cf2c8a8cf136e0d2960947dfa5c1f82b29c9178ad89a27" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
- '(package-selected-packages
-   (quote
-    (spacemacs-theme which-key use-package)))
+ '(package-selected-packages (quote (spacemacs-theme which-key use-package)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
