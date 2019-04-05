@@ -61,7 +61,7 @@ There are two things you can do about this warning:
 
 (setq ring-bell-function 'ignore)
 
-(when window-system (global-hl-line-mode t))
+(global-hl-line-mode t)
 (global-prettify-symbols-mode t)
 
 (tool-bar-mode -1)
