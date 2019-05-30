@@ -7,6 +7,7 @@ mnt/
 usr/src/
 usr/share/
 usr/local/
+usr/bin/
 
 # pulse
 .config/pulse/
