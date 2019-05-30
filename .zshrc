@@ -97,3 +97,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+if [ -f ~/opt/vault/bin/vault ]; then
+    autoload -U +X bashcompinit && bashcompinit
+    complete -o nospace -C /home/tobal/opt/vault/bin/vault vault
+fi
