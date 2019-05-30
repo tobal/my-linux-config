@@ -116,7 +116,7 @@ if [ -f ~/.git-prompt.sh ]; then
     . ~/.git-prompt.sh
 fi
 
-export PATH=$HOME/local/bin:$HOME/.local/bin:$PATH
+export PATH=$HOME/bin:$HOME/usr/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 PS1="\[\033[1;36m\]\t \[\033[0;36m\][\[\033[1;31m\]\u\[\033[0;36m\]@\[\033[1;34m\]\h\[\033[0;36m\]]\[\033[1;33m\]\$(__git_ps1) \[\033[1;32m\]\w \[\033[0;36m\]\n\$\[\033[0m\]> "
 
