@@ -59,6 +59,11 @@ There are two things you can do about this warning:
   (require 'evil-org-agenda)
   (evil-org-agenda-set-keys))
 
+(use-package evil-tabs
+  :ensure t
+  :init
+  (global-evil-tabs-mode) t)
+
 (setq ring-bell-function 'ignore)
 
 (global-hl-line-mode t)
