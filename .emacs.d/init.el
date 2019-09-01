@@ -103,3 +103,7 @@ There are two things you can do about this warning:
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-cb" 'org-switchb)
+
+; Org-mode TODO keywords
+(setq org-todo-keywords
+  '((sequence "TODO(t)" "INPROGRESS(i)" "BLOCKED(b)" "|" "DONE(d)" "DIDNTDO(n)" "CANCELED(c)")))
