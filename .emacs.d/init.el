@@ -84,6 +84,9 @@ There are two things you can do about this warning:
  '(custom-safe-themes
    (quote
     ("bd51a329aa9b8e29c6cf2c8a8cf136e0d2960947dfa5c1f82b29c9178ad89a27" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
+ '(org-agenda-files
+   (quote
+    ("~/usr/src/tobal/notes/roles/self-sustainer/body-wielder/workout.org" "~/usr/src/tobal/notes/roles/self-sustainer/cook/groceries.org" "~/usr/src/tobal/notes/roles/self-sustainer/body-wielder/clothing.org" "~/usr/src/tobal/notes/roles/society-participant/social-being/friends.org" "~/usr/src/tobal/notes/roles/society-participant/social-being/family.org" "~/usr/src/tobal/notes/roles/society-participant/dweller/apartment.org" "~/usr/src/tobal/notes/roles/spiritual-being/warrior/swordsman/kenjutsu.org" "~/usr/src/tobal/notes/roles/spiritual-being/magician/chaos-magician/meditation.org" "~/usr/src/tobal/notes/roles/creator/it-professional/data-scientist/artificial-intelligence.org" "~/usr/src/tobal/notes/roles/creator/artist/juggler/soft-props.org" "~/usr/src/tobal/notes/roles/creator/artist/juggler/rigid-props.org" "~/usr/src/tobal/notes/roles/creator/artist/role-player/four-simulations.org" "~/usr/src/tobal/notes/roles/creator/artist/musician/singing.org" "~/usr/src/tobal/notes/roles/creator/it-professional/software-developer/balabit.org" "~/usr/src/tobal/notes/roles/society-participant/social-being/nihongo.org")))
  '(package-selected-packages
    (quote
     (evil org-bullets spacemacs-theme which-key use-package)))
