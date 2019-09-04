@@ -109,4 +109,4 @@ There are two things you can do about this warning:
 
 ; Org-mode TODO keywords
 (setq org-todo-keywords
-  '((sequence "TODO(t)" "INPROGRESS(i)" "BLOCKED(b)" "|" "DONE(d)" "DIDNTDO(n)" "CANCELED(c)")))
+  '((sequence "TODO(t)" "INPROGRESS(i)" "BLOCKED(b)" "|" "DONE(d)" "DIDNTDO(n)" "COULDNTDO(u)" "CANCELED(c)")))
