@@ -8,7 +8,7 @@ alias mkdir='mkdir -pv'
 # custom commands
 alias ungz='tar xvzpf'
 alias unbz='tar xvjpf'
-alias dirsize='du -h --max-depth=1'
+alias dirsize='du -h --max-depth=1 | sort --human-numeric-sort --reverse'
 
 # hardware info
 alias meminfo='free -m -l -t'
